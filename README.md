@@ -72,10 +72,22 @@ EnergiaClara_AI/
 
 As fontes metodológicas e suas utilizações estão listadas em [`evidencias/referencias_metodologicas.csv`](evidencias/referencias_metodologicas.csv). Dentre elas: [ANEEL](https://www.gov.br/aneel/pt-br), [NASA POWER](https://power.larc.nasa.gov/) e [Inmetro](https://www.gov.br/inmetro/pt-br).
 
+
 ## Equipe
 
-**Preencher antes da entrega:** nomes completos e RMs de todos os integrantes.
+- **Caio Henrique Ferraz da Silva** — RM 568992
+- **Enzo Caruso Peter** — RM 570908
+
+**Instituição:** FIAP  
+**Curso:** Ciência da Computação  
+**Turma:** 1CCPG
 
 ## Entrega da disciplina
 
-A entrega final solicitada pelo professor é **um arquivo `.txt`** contendo os nomes e RMs dos integrantes, o link do GitHub e o link do vídeo técnico **não listado no YouTube**, com duração máxima de **3 minutos**. O vídeo é a etapa posterior à publicação do repositório.
+Projeto desenvolvido para a Global Solution — Citizen Assist AI, na disciplina de Soluções em Energias Renováveis e Sustentáveis.
+
+O repositório reúne o notebook executável, a fundamentação matemática, os resultados energéticos, as referências e as evidências dos testes.
+
+**Vídeo de apresentação:** a adicionar após a gravação.
+
+**Execução:** abrir o arquivo `EnergiaClara.ipynb` no Google Colab e executar todas as células.
