@@ -23,7 +23,7 @@ O público-alvo são consumidores residenciais brasileiros, inclusive pessoas se
 ## Como executar no Google Colab
 
 1. Acesse https://colab.research.google.com/.
-2. Escolha **Arquivo → Fazer upload de notebook** e envie `EnergiaClara_AI.ipynb`.
+2. Escolha **Arquivo → Fazer upload de notebook** e envie `EnergiaClara.ipynb`.
 3. Selecione **Ambiente de execução → Executar tudo**.
 4. Na **seção 3**, altere os parâmetros e execute as células seguintes para recalcular os resultados.
 5. Consulte gráficos e tabelas, escreva perguntas na **seção 8** e verifique os testes nas seções 15 e 19.
@@ -46,31 +46,27 @@ O público-alvo são consumidores residenciais brasileiros, inclusive pessoas se
 
 ## Dados, metodologia e limitações
 
-A pasta [`evidencias/`](evidencias/) contém o resultado numérico do cenário, parâmetros e sua origem, os cinco cenários sintéticos, análise de sensibilidade, referências, testes do assistente, regressão numérica e registros de usabilidade. Leia `resumo_da_analise.md`, `rastreabilidade_parametros.csv` e `referencias_metodologicas.csv` para entender as premissas.
-
+O [pacote de evidências](EnergiaClara_AI_Evidencias_CandidatoFinal.zip) contém os resultados numéricos, parâmetros, cenários sintéticos, análise de sensibilidade, referências, testes automatizados e registros de usabilidade.
+  
 Os custos e a tarifa iniciais são **hipóteses declaradas**. A irradiação da NASA é **histórica**, não geração medida. O modelo não reproduz tributos e regras específicas de créditos, custo mínimo, sombreamento, degradação, sazonalidade, financiamentos e outros fatores que afetam o resultado real.
 
 ## Testes e avaliação com usuário
 
-O notebook registra **7 testes textuais**, **12 testes de regressão** e **3 testes de formatação**, além de um teste real de usabilidade identificado como **P1**. P1 conseguiu utilizar o simulador, compreendeu os gráficos e considerou o uso fácil. Sugeriu organizar melhor as respostas; a seção 8 foi reorganizada com tópicos e ressalvas. **O reteste dessa alteração por P1 não foi realizado**. Detalhes em [`evidencias/registros_testes_reais.csv`](evidencias/registros_testes_reais.csv).
+O notebook registra **7 testes textuais**, **12 testes de regressão** e **3 testes de formatação**, além de um teste real de usabilidade identificado como **P1**. P1 conseguiu utilizar o simulador, compreendeu os gráficos e considerou o uso fácil. Sugeriu organizar melhor as respostas; a seção 8 foi reorganizada com tópicos e ressalvas. **O reateste dessa alteração por P1 não foi realizado**.  Os detalhes do teste com P1 estão disponíveis no arquivo `registros_testes_reais.csv`, incluído no [pacote de evidências](EnergiaClara_AI_Evidencias_CandidatoFinal.zip).
 
 ## Estrutura do repositório
 
 ```text
-EnergiaClara_AI/
+EnergiaClara-AI/
 ├── README.md
-├── EnergiaClara_AI.ipynb
-└── evidencias/
-    ├── resumo_da_analise.md
-    ├── resultado_energetico.csv
-    ├── rastreabilidade_parametros.csv
-    ├── registros_testes_reais.csv
-    └── ... demais evidências e testes
+├── EnergiaClara.ipynb
+└── EnergiaClara_AI_Evidencias_CandidatoFinal.zip
 ```
 
 ## Referências
 
-As fontes metodológicas e suas utilizações estão listadas em [`evidencias/referencias_metodologicas.csv`](evidencias/referencias_metodologicas.csv). Dentre elas: [ANEEL](https://www.gov.br/aneel/pt-br), [NASA POWER](https://power.larc.nasa.gov/) e [Inmetro](https://www.gov.br/inmetro/pt-br).
+
+As fontes metodológicas estão documentadas no arquivo `referencias_metodologicas.csv`, incluído no [pacote de evidências](EnergiaClara_AI_Evidencias_CandidatoFinal.zip). Entre elas estão ANEEL, NASA POWER e Inmetro.
 
 
 ## Equipe
